@@ -18,8 +18,6 @@ GLPI also supports automatic inventory via multiple plugins including but not li
 
 * The `Fusion Inventory <https://github.com/fusioninventory/fusioninventory-for-glpi/>`_ plugin transforms GLPI into an inventory server with the Fusion Inventory agents interfacing directly with the GLPI server.
 
-* The `ocsinventoryng <https://github.com/pluginsGLPI/ocsinventoryng>`_ plugin allow to synchronize the GLPI database with the `OCS Inventory NG <http://www.ocsinventory-ng.org>`_  inventory tool: the agents installed on the computers interface directly the the OCS Inventory NG server.
-
 Available types
 ---------------
 
@@ -29,7 +27,7 @@ Available types
    computers
    displays
    softwares
-   Network equipments <network-equipments>
+   network-equipments
    peripherals
    printers
    cartridges

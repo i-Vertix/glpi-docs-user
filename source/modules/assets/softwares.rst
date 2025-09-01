@@ -7,7 +7,9 @@ A software is by default associated with an entity.
 
 Financial management is done at the level of licenses; the financial management at software level is only a model for the licenses associated with this software.
 
-Software can be imported automatically using a third-party inventory tool; in this case a dictionary can be used to filter or clean the import data (see [Configure data dictionaries](07_Module_Administration/06_Dictionnaires.rst "The dictionaries are managed from menu entry Administration > Dictionaries")).
+Software can be imported automatically using a third-party inventory tool; 
+in this case a dictionary can be used to filter or clean the import data 
+(see :doc:`Configure data dictionaries </modules/administration/dictionnaries>` . The dictionaries are managed from menu entry Administration > Dictionaries).
 
 Some fields are specific in the software form:
 
@@ -60,7 +62,7 @@ The installation of a software on a computer is visualized through a :ref:`versi
 .. note::
 
    * Column `license` is filled only when the license is affected to the concerned computer
-   * The initial display of different categories depend upon user preferences (see [manage preferences](01-premiers-pas/03_Utiliser_GLPI/04_Gérer_ses_préférences.rst").
+   * The initial display of different categories depend upon user preferences (see :doc:`manage preferences </first-steps/preferences>`).
 
 
 Two options are available on the list of installations of software on a computer. Above the list, **Install** allows to install manually a version of a software on the computer, by selecting first the software and its version; if a license is associated with this software, the use version of the license is automatically selected.
@@ -139,5 +141,4 @@ The different actions
 Apart from :doc:`common actions <../overview/actions>`, some actions are specific to software:
 
 * :ref:`Add a version to a software <versions_soft>`
-* **[Manage licenses](03_Module_Parc/04_Logiciels/Onglet_Licences.rst)**
-  From menu ***Assets > Softwares*** click on license name in tab *Licenses*.
+* :doc:`Manage licenses </modules/management/licenses>` From menu ***Assets > Softwares*** click on license name in tab *Licenses*.

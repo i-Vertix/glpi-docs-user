@@ -2,14 +2,14 @@ Configuration
 =============
 
 Configuration module gives access to all GLPI configuration options such as:
-- Global configuration
-- Notifications
-- Receivers
-- Automatic actions
-- Authentication
-- Plugins
-- Unicity criteria
-- External links
+ - Global configuration
+ - Notifications
+ - Receivers
+ - Automatic actions
+ - Authentication
+ - Plugins
+ - Unicity criteria
+ - External links
 
 .. toctree::
    :maxdepth: 2

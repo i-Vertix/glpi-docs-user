@@ -7,26 +7,25 @@ Groups can be defined in a hierarchical structure in order to ease navigation an
 
 .. topic:: Example: groups
 
-   ::
     Management > Division > Service
     or
     N3 Support > Network > LAN
 
 Groups can be used in several way to group users by:
-* *skills*: for the helpdesk, for example network technicians, or database administrators,
-* *organizational groups*: for example all the computers of the management or the accounting department but also set of persons to be notified.
+ * *skills*: for the helpdesk, for example network technicians, or database administrators,
+ * *organizational groups*: for example all the computers of the management or the accounting department but also set of persons to be notified.
 
 The options available to adjust these behaviors are:
-* **Visible in a ticket**: requesting group and/or assignment to this group;
-* **Can be notified**: recipient of notifications;
-* **Can be supervisor**: only for a :doc:`project </modules/tools/projects>`;
-* **May contain**: assets and/or users.
+ * **Visible in a ticket**: requesting group and/or assignment to this group;
+ * **Can be notified**: recipient of notifications;
+ * **Can be supervisor**: only for a :doc:`project </modules/tools/projects>`;
+ * **May contain**: assets and/or users.
 
 In an item form, 2 notions of groups are available:
-* *technical group* which indicates which group of people is in charge of the asset (equivalent for a group of the technical manager)
-* *group* which indicates to which group of items it belongs.
+ * *technical group* which indicates which group of people is in charge of the asset (equivalent for a group of the technical manager)
+ * *group* which indicates to which group of items it belongs.
 
-.. note:: the technical group can allow the automatic assignment of a ticket to a group of technicians, see the ticket categories in the chapter: doc: `Configure dropdowns </modules/configuration/dropdowns/assistance.rst>`. Likewise, it can be used in :doc:`Business rules for tickets </modules/administration/rules/ticketbusinessrules>`.
+.. note:: the technical group can allow the automatic assignment of a ticket to a group of technicians, see the ticket categories in the chapter: :doc:`Configure dropdowns </modules/configuration/dropdowns/assistance>`. Likewise, it can be used in :doc:`Business rules for tickets </modules/administration/rules/ticketbusinessrules>`.
 
 .. hint:: if all options are set to *No*, the group will not appear in any selection list; this can be useful for a group that is deleted and kept for history or for adding empty groups in the hierarchical structure.
 
@@ -46,7 +45,7 @@ A group is attached to the entity in which it is created and can then be visible
 
 From the list of groups, a group can be imported from a LDAP directory via the *LDAP directory link* button if external authentication is used and the "Auth and sync update" authorization is granted in profile. The assignment of users to groups will be automatic, see :doc:`Profiles </modules/administration/profiles/profiles>`. If several directories are configured, the choice between directories is proposed, otherwise the search form is directly accessible.
 
-Depending on how you search for groups (see: doc: `Authenticating users from LDAP directories </modules/configuration/authentification/ldap>`), a **Search filter in groups** and/or a **User search filter** appear: these allow to refine the list to be imported. If GLPI is used in multi-entities, it is necessary to select the destination entity of the group as well as its visibility in the sub-entities.
+Depending on how you search for groups (see: :doc:`Authenticating users from LDAP directories </modules/configuration/authentification/ldap>`), a **Search filter in groups** and/or a **User search filter** appear: these allow to refine the list to be imported. If GLPI is used in multi-entities, it is necessary to select the destination entity of the group as well as its visibility in the sub-entities.
 
 .. note:: importing groups cannot be filtered by entity. In addition, no group synchronization function is available. The only way to refresh from a directory the list of group members is to resynchronize users, see :doc:`Import users from an external source </modules/administration/users/usersimport>`.
 

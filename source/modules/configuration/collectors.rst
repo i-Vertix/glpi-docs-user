@@ -1,13 +1,13 @@
 Receivers
 =================
 
-Receivers configuration can be reached from `Configuration -> Receivers ` menu.
+Receivers configuration can be reached from `Configuration > Receivers` menu.
 
 A receiver allow to import emails from a mailbox ans turn them into GLPI tickets. A :ref:`routing mechanism <collectors_rules>` will bring them to the destination entity.
 
 A receiver is associated with an email address. It is possible to add as many receivers as you want. Of course, the more receivers you configure, the more import will take time.
 
-To declare a new collector, you will have to provide a server name, as well as connection options (IMAP or POP, SSL, TLS, certificate validation). It is possible to limit the maximum size for attachments (no import, or from 1 to 100 Mio). This configuration value is inherited from the main configuration (`Setup -> General -> Assistance`)
+To declare a new collector, you will have to provide a server name, as well as connection options (IMAP or POP, SSL, TLS, certificate validation). It is possible to limit the maximum size for attachments (no import, or from 1 to 100 Mio). This configuration value is inherited from the main configuration (`Setup > General > Assistance`)
 A configuration option permit to switch tickets creation date between import date or email date.
 
 Optionally, you can set an archive directory in the mailbox where imported and refused emails will be stored.
@@ -18,7 +18,7 @@ Once the form validated, you can test connection and messages retrieving by usin
 
 An automatic action will do the import on configured receivers ; time between two executions can be configured in automated task form.
 
-Another automatic action will send notifications when any collector repetitively fails to import emails. See `notifications configuration <modules/configuration/notifications>`.
+Another automatic action will send notifications when any collector repetitively fails to import emails. See :doc:`notifications configuration </modules/configuration/notifications>`.
 
 .. warning::
 

@@ -17,23 +17,19 @@ It is recommended to have it run every minute to ensure that actions that are re
 
 For Linux/MacOS, you should add the following to the web server's user's (www-data, apache, etc) crontab:
 
-::
+``* * * * * <php> <install_folder>/front/cron.php``
 
-   * * * * * php GLPI/front/cron.php
-
-You will need to replace `GLPI` with the path to your GLPI folder.
-You may also need to replace `php` with the full path to your php binary if it is not in the PATH.
+You will need to replace ``<install_folder>`` with the path to your GLPI folder.
+You may also need to replace ``<php>`` with the full path to your php binary if it is not in the PATH.
 
 Force execution of action from CLI
 ----------------------------------
 
 To execute a specific action from the command-line, you can run (for mailgate action):
 
-::
+``<php> <install_folder>/front/cron.php --force mailgate``
 
-   php GLPI/front/cron.php --force mailgate
-
-You will need to replace `GLPI` with the path to your GLPI folder.
+You will need to replace ``<install_folder>`` with the path to your GLPI folder.
 
 Forcing the action to run will ensure it is run even if it is not scheduled to run again yet.
 

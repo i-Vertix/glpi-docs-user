@@ -1,5 +1,3 @@
-.. _bookmarks:
-
 Saved Searches
 ==============
 
