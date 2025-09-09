@@ -7,6 +7,8 @@ Glossary
 
 *Adaptive rule*: Rule in which at least one action is the result of a regular expression defined in a criteria.
 
+*Actions*: Grouping in a list of available handling of GLPI objects.
+
 *Administrative closing*: Modification of a ticket status to closed (manually or automatically).
 
 *Alert threshold*: Minimal value from which an alert is triggered.
@@ -14,6 +16,8 @@ Glossary
 *Automatic action*: Process for regular actions triggering, either internal to GLPI or external (Unix cron, Windows planned tasks...).
 
 *Automatic closing*: GLPI internal process that closes unresolved tickets after a given time.
+
+*Asset*: Generic term for an element that can be inventoried and managed in GLPI.
 
 *Bookmark*: Stored link to a GLPI page that allows to access the page quickly.
 
@@ -36,6 +40,8 @@ Glossary
 *Contact*: Referent person linked to a supplier.
 
 *Contract*: Financial document linked to assets and to suppliers.
+   
+*CLI*: Command Line Interface
 
 *Controller*: Device that interfaces with other peripheral device.
 
@@ -68,6 +74,7 @@ Glossary
 *Tacit renewal*: The contract is renewed automaticaly if none of the parties declares its will to break it.
 
 *External link*: Link displayed on an asset form in GLPI and built dynamically using the asset data.*: 
+
 *Frequently Asked Questions (FAQ)*: Specifically in GLPI, selection of elements of the knowledge base that can be provided independently, for example articles that are made accessible to users having only access to the simplified interface.
 
 *Financial information*: Data for invoicing and warranty.
@@ -242,6 +249,12 @@ Glossary
 *Validator*: Person performing the validation of a ticket.
 
 *Global view*: In a GLPI menu, display of columns in a list that is common to all users.
+   
+*TTO*: TTO (Time To Own) means the total time elapsed between the opening of an incident and its assignment to a technician.
+
+*TTR*: TTR (Time To Resolve) means the total time elapsed between the opening of an incident or request and its complete resolution.
+
+*Unitary management*: Management mode in which an inventory object can be connected to only one computer.
 
 *Personal view*: In a GLPI menu, display of columns in a list that is specific to a user.
 

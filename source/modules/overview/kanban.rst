@@ -46,6 +46,7 @@ For Tickets, Changes, and Problems you have requesters, observers, and assignees
 For Projects and Project tasks you have a simple "team" (assigned in the team tab) along with managers (assigned on the main form).
 
 .. note::
+
     The Kanban team management feature does not currently allow changing managers from the Project Kanban
 
 The Kanban presents these different notions as a simple "Team" where each member has a specific role and shows them all in a centralized list.
@@ -73,12 +74,14 @@ Some of these tags include:
 Each suggested tag may have zero or more buttons with an icon or character in them which represent different modifiers for the filter.
 
 The common modifiers:
- - !: Represents a negation or exclusion
- - #: Represents a regular expression
+
+ - ``!``: Represents a negation or exclusion
+ - ``#``: Represents a regular expression
 
 As you type, the list of suggested tags will be adjusted to match what you have typed.
 You can manually add a filter by typing it out such as:
 `title:this` or `!title:notthis`
+
 You can also select the tag or modifier from the list of suggestions using your mouse (or touch) or using the keyboard arrow keys to navigate and the enter key to select.
 If you select a tag or modifier from the suggestion list, it will add it to the search box in *edit* mode which lets you add the term.
 
