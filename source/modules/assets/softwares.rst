@@ -7,21 +7,9 @@ A software is by default associated with an entity.
 
 Financial management is done at the level of licenses; the financial management at software level is only a model for the licenses associated with this software.
 
-<<<<<<< HEAD
-Software can be imported automatically using a third-party inventory tool; 
-in this case a dictionary can be used to filter or clean the import data 
-(see :doc:`Configure data dictionaries </modules/administration/dictionnaries>` . The dictionaries are managed from menu entry Administration > Dictionaries).
-
-Some fields are specific in the software form:
-
-- **Update** is an information, with no processing associated and which tells whether the software is an update of another software
-- **Category** allows to group software in the list of software of an asset
-- **Can be associated with a ticket** defines whether the software can be seen in the drop-down list "Hardware" of a  ticket
-=======
 Software can be imported automatically using a third-party inventory tool; in this case
 a dictionary can be used to filter or clean the import data (see :doc:`Configure data dictionaries <../administration/dictionnaries>`.
 Dictionaries are managed from menu entry **Administration > Dictionaries**).
->>>>>>> upstream/develop
 
 
 It is recommended to first create the software without a version number in the name, then to create the versions and last to create the licenses.
@@ -118,11 +106,7 @@ on a version form (computers having this version installed) and finally on a com
 .. note::
 
    * Column `license` is filled only when the license is affected to the concerned computer
-<<<<<<< HEAD
-   * The initial display of different categories depend upon user preferences (see :doc:`manage preferences </first-steps/preferences>`).
-=======
    * The initial display of different categories depend upon user preferences. See :doc:`manage preferences </first-steps/preferences>`
->>>>>>> upstream/develop
 
 
 Two options are available on the list of installations of software on a computer. Above the list, **Install** allows to install manually a version of a software on the computer, by selecting first the software and its version; if a license is associated with this software, the use version of the license is automatically selected.
@@ -251,17 +235,3 @@ This grouping have the following effects:
    * Empty trash after grouping, otherwise synchronization will restore the old software in case of new version
    * Associate the same vendor to the new software; as the synchronization checks vendor name, a new software would then be created
 
-<<<<<<< HEAD
-.. include:: ../tabs/debug.rst
-
-.. include:: ../tabs/all.rst
-
-The different actions
----------------------
-
-Apart from :doc:`common actions <../overview/actions>`, some actions are specific to software:
-
-* :ref:`Add a version to a software <versions_soft>`
-* :doc:`Manage licenses </modules/management/licenses>` From menu ***Assets > Softwares*** click on license name in tab *Licenses*.
-=======
->>>>>>> upstream/develop

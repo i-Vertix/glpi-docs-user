@@ -1,11 +1,7 @@
 Receivers
 =================
 
-<<<<<<< HEAD
 Receivers configuration can be reached from `Configuration > Receivers` menu.
-=======
-Receivers configuration can be reached from `Configuration -> Receivers ` menu.
->>>>>>> upstream/develop
 
 A receiver allow to import emails from a mailbox ans turn them into GLPI tickets. A :ref:`routing mechanism <collectors_rules>` will bring them to the destination entity.
 

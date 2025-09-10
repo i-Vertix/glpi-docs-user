@@ -517,16 +517,17 @@ This forces the user to enter a conditional answer, such as a certain number of 
 
 In this example, the expected response is a sequence of 6 numbers
 
-
-.. image:: images/conditionnal_Approval.png
-   :alt: Add a conditionnal Approval
-   :scale: 71%
+..
+   .. image:: images/conditionnal_Approval.png
+      :alt: Add a conditionnal Approval
+      :scale: 71%
 
 If the entered answer is not suitable, a red error message will appear during Approval.
 
-.. image:: images/error_Approval.png
-   :alt: Error conditionnal Approval
-   :scale: 71%
+..
+   .. image:: images/error_Approval.png
+      :alt: Error conditionnal Approval
+      :scale: 71%
 
 
 Submit button visibility
@@ -680,11 +681,11 @@ Followup / Task / Approval
 
 For each item created, you can add a follow-up, a task or request an approval
 
+..
+   .. image:: images/add_followup_task_Approval.png
+      :alt: Add a followup, task or approval
 
-.. image:: images/add_followup_task_Approval.png
-   :alt: Add a followup, task or approval
-
-   :scale: 80%
+      :scale: 80%
 
 For **followup** and **task**, you can:
 
