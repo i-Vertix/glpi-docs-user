@@ -16,7 +16,7 @@ Description of fields
 * **Default characters limit**: maximum number of displayed characters visible in search results. If you display a ticket content for example, it will be truncated on this number of characters
 * **Default url length limit**: same as the above, but applying on URLs
 * **Default decimals limit**: number of decimals displayed for amounts
-* **Translation of dropdowns**: allows dropdowns do be translated. Once this parameter enabled, a translation tab will be added on dropdown forms (see `dropdowns translations <08_Module_Configuration/02_Intitulés/02_Onglet_Traduction.rst>`_)
+* **Translation of dropdowns**: allows dropdowns do be translated. Once this parameter enabled, a translation tab will be added on dropdown forms (see :doc:`dropdowns translations <../dropdowns/tabs/translation>`)
 * **Translation of reminders**: same as the above, but applying on reminders
 * **Knowledge base translation**: same as the above, but applying on knowledge base entries
 * **Simplified interface help link**: link to help displayed for users using simplified interface

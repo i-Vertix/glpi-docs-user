@@ -62,7 +62,7 @@ checkAllUpdates (Glpi\Marketplace\Controller)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Checks all installed plugins to see if there is an update available.
-The plugins must be available via the `marketplace <plugins.html>`_ even if they weren't installed that way in order for the update detection to work.
+The plugins must be available via the marketplace even if they weren't installed that way in order for the update detection to work.
 If you have notifications enabled, you can receive a notification regarding the available updates.
 Otherwise, the available updates are listed in the action's log.
 
@@ -172,7 +172,7 @@ The amount of time to keep log entries can be changed for each automatic action.
 mailgate (MailCollector)
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-Retrieves emails from `configured mailboxes <collectors.html>`_ and creates tickets from the mail.
+Retrieves emails from :doc:`configured mailboxes <./collectors>` and creates tickets from the mail.
 
 mailgateerror (MailCollector)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

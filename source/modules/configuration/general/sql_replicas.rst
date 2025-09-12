@@ -3,7 +3,7 @@ SQL replicas
 
 GLPI can be configured to use replica databases in some cases to improve performance.
 
-This tab is only visible if the option has been enabled in the `system tab <system.html>`_.
+This tab is only visible if the option has been enabled in the :doc:`system tab <./system>`.
 
 .. image:: ../images/sql_replicas.png
    :align: center

@@ -7,7 +7,7 @@ Each authenticated user has the possibility to modify his preferences if they ha
 
 .. note::
    These options override the default ones set in the general setup.
-   For more information about the available options refer to the `general setup documentation <../../../modules/configuration/general/default_values.html>`_.
+   For more information about the available options refer to the :doc:`general setup documentation <../modules/configuration/general/default_values>`.
 
 Main Tab
 --------

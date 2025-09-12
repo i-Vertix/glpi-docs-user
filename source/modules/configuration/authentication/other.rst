@@ -50,4 +50,4 @@ An option allows to remove the domain of the user's login (Ex: testuser@example.
 .. note::
 
    The list of possible names for the headers is configurable, although the most common ones are already provided by GLPI.
-   See `Configuring headings </modules/configuration/dropdowns/index>`_.
+   See :doc:`Configuring headings <../../../modules/configuration/dropdowns/index>`.

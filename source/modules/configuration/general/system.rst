@@ -6,7 +6,7 @@ This tab allows you to view a summary of information about the web server, confi
 .. image:: ../images/system_config.png
 
 -  **Logging level**
-   Each internal event of the application is recorded in the logs which are visible in `Administration > Logs <../../administration/logs.html>`_.
+   Each internal event of the application is recorded in the logs which are visible in :doc:`Administration > Logs <../../administration/logs>`.
 
 -  **Logs in files (SQL, email, automatic action...)** :
    It is possible to record certain additional events (SQL, notifications, automatic action...) in files.
